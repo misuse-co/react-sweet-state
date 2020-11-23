@@ -3,6 +3,7 @@ const defaultMutator = (prevState, partialState) => {
   return Object.assign({}, prevState, partialState);
 };
 
+
 let middlewares;
 
 const defaults = {
@@ -17,3 +18,5 @@ const defaults = {
 };
 
 export default defaults;
+
+//random comment to trigger semgrep?
